@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Conversor Moeda</string>
+    <string name="note">BemVindo</string>
+    <string name="btn_convert">Converter</string>
+    <string name="insira_o_valor_em_metical">Insira o valor em Metical</string>
+    <string name="emptyvalue">Valor Inválido</string>
+</resources>

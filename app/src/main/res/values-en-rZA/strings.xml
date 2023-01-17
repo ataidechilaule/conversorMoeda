@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coins Converter</string>
+    <string name="note">Welcome</string>
+    <string name="btn_convert">Convert</string>
+    <string name="insira_o_valor_em_metical">Insert the metical value</string>
+    <string name="emptyvalue">Valor Inválido</string>
+</resources>

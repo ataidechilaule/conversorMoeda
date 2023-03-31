@@ -8,6 +8,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+     EditText meticalEditText;
+
+    TextView resultadoTexT;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void converter(View view){
 
-        EditText meticalEditText = findViewById(R.id.metical_txt);
+       meticalEditText = findViewById(R.id.metical_txt);
 
-        TextView resultadoTexT = findViewById(R.id.result_txt);
+       resultadoTexT = findViewById(R.id.result_txt);
 
         if(!meticalEditText.getText().toString().equals("")){
             float meticalValor = Float.parseFloat(meticalEditText.getText().toString());
